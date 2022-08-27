@@ -6,7 +6,7 @@ rapydmain is framework for python batch script.
 - Automatically setup logger(use python logging).
 
 # Usage
-1. Setup directories & files pj_template(https://github.com/aznuii/rapydmain/tree/main/pj_template).
+1. Setup project directories & files, like pj_template(https://github.com/aznuii/rapydmain/tree/main/pj_template).
 ```
 [pj_dir]/
     config/

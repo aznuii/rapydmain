@@ -1,0 +1,23 @@
+{
+    "version": 1,
+    "disable_existing_loggers": false,
+    "root": {
+        "level": "INFO",
+        "handlers": ["fileHandler"],
+        "propagate": false
+    },
+    "handlers": {
+        "fileHandler": {
+            "class": "logging.FileHandler",
+            "formatter": "default",
+            "mode": "a",
+            "encoding": "utf-8",
+            "filename": "***[this parameter is replaced by rapydmain]***"
+        }
+    },
+    "formatters": {
+        "default": {
+            "format": "%(asctime)s[%(levelname)s]: %(message)s"
+        }
+    }
+}

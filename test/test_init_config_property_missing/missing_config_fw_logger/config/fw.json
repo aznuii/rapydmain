@@ -1,0 +1,11 @@
+
+{
+    "app": {
+        "name": "rapydmain"
+    },
+    "message": {
+        "begin": "begin.",
+        "end": "end.",
+        "error": "error."
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "app": {
+        "name": "Rapyd Main"
+    },
+    "message": {
+        "begin": "begin.",
+        "end": "end.",
+        "error": "error."
+    },
+    "logger": {
+        "logger_enables": true,
+        "log_file_name_format": "{0}_{1}",
+        "log_file_extension": "log",
+        "output_begin_message_enables": true,
+        "output_end_message_enables": true,
+        "output_error_message_enables": true
+    }
+}
